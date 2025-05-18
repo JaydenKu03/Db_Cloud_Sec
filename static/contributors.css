@@ -1,0 +1,33 @@
+#contributors-container{
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    column-gap: 20px;
+}
+
+.contributors{
+    background-color: hsl(195, 53%, 86%);
+    border: 1px solid hsl(220, 15%, 85%);
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    margin-bottom: 20px;
+    padding: 14px;
+    width: 275px;
+}
+
+.contributors img{
+    display: block;
+    margin: auto;
+}
+
+.detail-label{
+    margin: 20px 0px 10px 0px;
+    font-weight: bold;
+}
+
+.detail-desc{
+    font-size: 0.8rem;
+}
+

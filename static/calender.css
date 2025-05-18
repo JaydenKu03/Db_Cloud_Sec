@@ -1,0 +1,25 @@
+#calendar{
+    background-color: hsl(0, 6%, 85%);
+    border: none;
+    border-radius: 3px;
+    border-collapse: collapse;
+    text-align: center;
+    cursor: default;
+    width: 100%;
+}
+
+#calendar-caption{
+    background-color: lightblue;
+    border-radius: 3px;
+    padding: 8px;
+}
+
+#calendar th, #calendar td{
+    border-radius: 15px;
+    /* padding: 5px; */
+}
+
+.today{
+    background-color: hsl(60, 80%, 69%);
+    border-radius: 15px;
+}

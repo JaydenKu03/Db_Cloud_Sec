@@ -1,0 +1,77 @@
+#content-container{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 3%;
+    justify-content: center;
+    text-align: center;
+    margin: 2%;
+    padding: 1%;
+}
+
+/* Profile Part */
+#my-profile{
+    background-color: hsl(0, 0%, 97%);
+    border: 1px solid gray;
+    border-radius: 4px;
+    box-shadow: 0 3px 6px 0 hsla(0, 0%, 20%, 0.3);
+    margin-bottom: 30px;
+    padding: 3%;
+    width: 30%;
+    min-width: 300px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#my-profile img{
+    width: 200px;
+    margin: auto;
+}
+
+#my-profile #user-name{
+    font-size: 2.5rem;
+    margin-top: 20px;
+}
+
+#setting-container{
+    font-size: 1.5rem;
+}
+
+/* Information Part */
+#information-container{
+    background-color: hsl(0, 0%, 97%);
+    border: 1px solid gray;
+    border-radius: 4px;
+    box-shadow: 0 3px 6px 0 hsla(0, 0%, 20%, 0.3);
+    width: 50%;
+    min-width: 300px;
+    padding: 25px;
+    height: 700px;
+    flex-grow: 1;
+    overflow: auto;
+}
+
+#information-container{
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+}
+
+section{
+    background-color: ghostwhite;
+    border: 1px solid gray;
+    border-radius: 5px;
+    box-shadow: 0 3px 6px 0 hsla(0, 0%, 20%, 0.3);
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: left;
+    padding: 2%;
+}
+
+section h2{
+    margin-bottom: 15px;
+}
+
+section ul li{
+    list-style: none;
+}

@@ -1,0 +1,107 @@
+h1{
+    text-align: center;
+}
+#user-inform #header{
+    color: #0f55b4;
+}
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 3%;
+    justify-content: center;
+    text-align: center;
+    margin: 2%;
+    padding: 1%;
+}
+
+#student-main {
+    background-color: hsl(0, 0%, 97%);
+    border: 1px solid gray;
+    border-radius: 4px;
+    box-shadow: 0 3px 6px 0 hsla(0, 0%, 20%, 0.3);
+    margin-bottom: 30px;
+    padding: 3%;
+    width: 30%;
+    min-width: 300px;
+    flex-grow: 1;
+}
+
+#student-main img{
+    width: 200px;
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#student-main #text {
+    text-align: center;
+    margin-top: 10px;
+}
+
+#student-main #text a{
+    color: black;
+    text-decoration: none;
+}
+
+
+#student-main #text img{
+    width: 35px;
+    display: inline-block;
+
+}
+
+#student-main #name{
+    font-size: 2.5rem;
+    margin-top: 20px;
+}
+
+#user-inform #title{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#important-info #title{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#user-inform {
+    background-color: hsl(0, 0%, 97%);
+    border: 1px solid gray;
+    border-radius: 4px;
+    box-shadow: 0 3px 6px 0 hsla(0, 0%, 20%, 0.3);
+    margin-bottom: 30px;
+    padding: 3%;
+    width: 30%;
+    min-width: 600px;
+    flex-grow: 1;
+    text-align: left;
+}
+
+/*#important-info {
+    background-color: hsl(0, 0%, 97%);
+    border: 1px solid gray;
+    border-radius: 4px;
+    box-shadow: 0 3px 6px 0 hsla(0, 0%, 20%, 0.3);
+    margin-bottom: 30px;
+    padding: 3%;
+    width: 30%;
+    min-width: 300px;
+    flex-grow: 1;
+    text-align: left;
+}*/
+
+#user-inform #important-info #circles {
+    display: flex; /* Use flexbox for side-by-side alignment */
+    justify-content: center; /* Center the circles horizontally */
+    gap: 10px; /* Add spacing between the circles */
+}
+
+#user-inform #important-info #circles img {
+    width: 30px;
+    display: inline-block; /* Ensure inline-block for sizing */
+    margin: 0; /* Remove auto margins that caused centering */
+}
+
+

@@ -1,0 +1,117 @@
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.meeting-container {
+    display: flex;
+    justify-content: space-evenly;
+    column-gap: 1em;
+    background-color: #f8f9fa;
+    padding: 20px;
+}
+
+.booking-container {
+    width: 30%;
+    padding: 15px;
+}
+
+.status-container {
+    width: 30%;
+    padding: 15px;
+}
+
+.logs-container {
+    width: 30%;
+    background-color: lightcyan;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    display: none;
+    text-align: left;
+    margin-top: 15px;
+}
+
+.active-form {
+    display: block; 
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+input, textarea, button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    background-color: #007bff; 
+    color: white;
+    border: none;
+    cursor: pointer;
+    
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+h3 {
+    text-align: center;
+}
+
+table {
+    margin: 0 auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: white;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+td {
+    border: 1px solid black;
+    padding: 10px; 
+    text-align: center;
+}
+
+th {
+    border: 1px solid black;
+    padding: 10px; 
+    text-align: center;
+    background-color: lightskyblue;
+    font-weight: bold;
+}
+
+ol {
+    padding-left: 20px;
+}
+
+.logs-container li {
+    margin:5px 0;
+}
+
+.logs {
+    display: block;
+    background-color: white;
+}

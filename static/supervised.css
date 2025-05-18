@@ -1,0 +1,66 @@
+h1 {
+    text-align: center;
+}
+
+/* Main Container */
+.containerwrapper {
+    display: flex; /* Align containers in a row */
+    flex-wrap: wrap;
+    justify-content: flex-start; /* Align to the left */
+    align-items: flex-start; /* Align at the top */
+    gap: 10%; /* Space between containers (adjust as needed) */
+    margin: 20px 40px 10px 40px; /* Space below the header */
+    padding: 20px; /* Optional padding */
+}
+
+/* Supervisor Part */
+.supervisor-container{
+    background-color: rgba(42, 106, 189, 0.37); /* Background color */
+    width: 350px; /* Fixed width for a square shape */
+    margin-bottom:30px;
+    padding: 20px; /* Space inside the container */
+    border-radius: 20px; /* Smooth rounded edges */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Optional shadow for depth */
+    flex-grow: 1;
+}
+
+.supervisor-container li{
+    text-align: center;
+    list-style: none;
+}
+
+.supervisor-container img{
+    display: block;
+    margin: auto;
+}
+
+/* Student Part */
+.supervised-container{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    width: 50%;
+    min-width: 40%;
+    max-height: 700px;
+    flex-grow: 1;
+    overflow: auto;
+}
+
+.student-info {
+    background-color: #3397e95d;
+    width: 100%; /* Fixed width for a square shape */
+    padding: 20px; /* Space inside the container */
+    border-radius: 15px; /* Smooth rounded edges */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow for depth */
+}
+
+.student-info li{
+    text-align: left;
+    list-style: none;
+}
+
+.student-info a{
+    color: black;
+    text-decoration: none;
+}
+

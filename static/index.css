@@ -1,0 +1,234 @@
+main{
+    word-wrap: break-word;
+}
+
+h1{
+    background-color: rgba(42, 106, 189, 0.37);
+    border-radius: 4px;
+    width: fit-content;
+    padding: 5px;
+}
+
+#container{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 3%;
+    margin-top: 1%;
+}
+
+/* Left Panel */
+#side-bar-panel{
+    background-color: hsl(220, 33%, 98%);
+    border: 1px solid hsl(220, 15%, 85%);
+    border-radius: 2px ;
+    width: 5%;
+    min-width: 150px;
+    flex-grow: 1;
+}
+
+#user-info{
+    border-bottom: 1px solid hsl(220, 15%, 80%);
+    border-radius: 2px ;
+    padding: 20px;
+    margin-bottom: 20px; 
+}
+
+#picture-content{
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+#user-info #user-id::before, #user-info #user-role::before{
+    content: url(../images/identity.png);
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+#user-navigation h3{
+    margin: 0px 0px 10px 10px;
+    font-weight: normal;
+}
+
+#user-navigation a{
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+#user-navigation li{
+    list-style: none;
+    width: 100%;
+    padding: 17px;
+}
+
+#user-navigation a:visited{
+    color: black;
+}
+
+#user-navigation li:hover{
+    background-color: hsl(220, 33%, 88%);
+}
+
+/* Center Panel */
+#center-panel{
+    flex-grow: 1;
+    width: 50%;
+    min-width: 370px;
+    margin-bottom: 10%;
+}
+
+#center-panel h2{
+    color: white;
+    background-color: #0f55b4;
+    border-radius: 4px;
+    font-size: 2rem;
+    margin-bottom: 16px;
+    padding: 10px;
+}
+
+#operation-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    column-gap: 13px;
+    row-gap: 35px;
+    padding: 10px;
+    min-width: 50%;
+    max-height: 450px;
+    margin-bottom: 5%;
+    overflow: auto;
+}
+
+.operation-task{
+    background-color: hsl(0, 0%, 97%);
+    border: 1px solid gray;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    width: 150px;
+    height: 150px;
+    font-size: 0.9rem; 
+}
+
+.operation-task a{
+    color: hsl(0, 0%, 20%); 
+    text-decoration: none;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 8px; 
+    height: 100%;
+}
+
+.operation-task img{
+    width: 100px;
+}
+  
+.operation-task:hover{
+    transform: scale(1.02);
+}
+
+#announcement-board{
+    background-color: white;
+    border: 2px solid hsl(0, 0%, 80%); 
+    border-radius: 4px; 
+    padding: 16px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    overflow: auto;
+}
+
+#announcement-content {
+    background-color: hsl(0, 0%, 97%);
+    border: 1px solid hsl(0, 0%, 94%); 
+    border-radius: 4px;
+    height: 580px; 
+    margin-bottom: 10px; 
+    padding: 5px;
+    overflow-y: auto; 
+    display: flex;
+    flex-direction: column;
+}
+
+.annoucement-text {
+    color: black;
+    background-color: hsl(0, 0%, 97%);
+    border-bottom: 1px solid #d2d6de;
+    border-radius: 3px;
+    width: 100%;
+    min-height: 190px;
+    padding: 10px;
+    font-size: 1.1rem;
+    text-align: left;
+    overflow: hidden;
+}
+
+.annoucement-text span{
+    display: block;
+    margin-bottom: 10px;
+}
+
+.annoucement-text .title{
+    color: black;
+    border-bottom: 1px solid gray;
+    font-weight: bold;
+    font-size: 1.4rem;
+    width: fit-content;
+}
+
+.annoucement-text .author{
+    color: hsl(219, 61%, 45%);
+}
+
+#annoucement-component {
+    display: flex;
+    gap: 8px;
+}
+
+#annoucement-component textarea {
+    border: 1px solid hsl(0, 0%, 80%);
+    border-radius: 4px;
+    width: 100%;
+    height: 64px;
+    padding: 8px;
+    font-family: serif;
+    font-size: 1.2rem;
+    resize: none;
+}
+
+/* activity-bar-panel */
+#activity-bar-panel{
+    border-radius: 2px ;
+    margin-right: 20px;
+    width: 10%;
+    min-width: 220px;
+    flex-grow: 1;
+}
+
+#activity-bar-panel h2{
+    border-bottom: 1px solid gray;
+    margin: 0px 5px 25px 0px;
+}
+
+#calendar-container, #event-container{
+    background-color: hsl(220, 33%, 98%);
+    border: 1px solid hsl(220, 15%, 85%); 
+    margin-bottom: 20%;
+    padding: 25px;
+}
+
+#event-container{
+    height: 600px;
+    overflow: auto;
+}
+
+.event-details{
+    background-color: gainsboro;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+

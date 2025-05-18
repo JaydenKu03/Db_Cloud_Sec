@@ -1,0 +1,41 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1{
+    text-align: center;
+    padding: 20px;
+}
+
+input[type=text]{
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+table, td, th{
+    border: 2px  solid black;
+    border-collapse: collapse;
+    background-color: white;
+    text-align: center;
+}
+.evaluation table, th{
+    padding: 15px;
+}
+
+.evaluation table, td{
+    padding: 10px;
+}
+#Execution table, th{
+    padding: 10px;
+}
+
+.container{
+    background-color: lightcyan;
+    border-radius: 5px;
+    padding: 20px;
+    width: 70%;
+    margin-left: 3%;
+    margin: auto;
+}
