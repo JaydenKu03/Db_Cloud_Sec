@@ -13,7 +13,7 @@ you can skip the "clone repository".
 
 ### Install drivers for establish connection to SQL Server
 
-    https://learn.microsoft.com/en-us/sql/connect/php/download-drivers-php-sql-server?view=sql-server-ver16
+- https://learn.microsoft.com/en-us/sql/connect/php/download-drivers-php-sql-server?view=sql-server-ver16
 
 ### Note
 - Make sure your php version match the drivers version.
